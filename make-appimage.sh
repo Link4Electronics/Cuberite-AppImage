@@ -8,7 +8,7 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=https://github.com/cuberite/cuberite/blob/master/src/Resources/icon_256.png?raw=true
+export ICON=https://raw.githubusercontent.com/cuberite/cuberite/refs/heads/master/src/Resources/icon_256.png
 export DESKTOP=DUMMY
 
 # Deploy dependencies
