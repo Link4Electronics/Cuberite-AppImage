@@ -1,0 +1,4 @@
+#!/bin/false
+dir=${XDG_DATA_HOME:-~/.local/share}/Cuberite
+mkdir -p "$dir"
+cd "$dir"
