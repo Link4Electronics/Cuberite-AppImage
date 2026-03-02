@@ -8,10 +8,10 @@ export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/cuberite/cuberite/refs/heads/master/src/Resources/icon_256.png
-export DESKTOP=DUMMY
 
 # Deploy dependencies
 quick-sharun ./AppDir/bin/Cuberite
+echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
