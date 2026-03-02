@@ -11,7 +11,7 @@ export ICON=https://raw.githubusercontent.com/cuberite/cuberite/refs/heads/maste
 
 # Deploy dependencies
 quick-sharun ./AppDir/bin/*
-echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
+#echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
