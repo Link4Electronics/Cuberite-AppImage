@@ -1,5 +1,5 @@
 #!/bin/sh
-dir=${XDG_DATA_HOME:-~/.local/share}/Cuberite
+dir=$DATADIR/Cuberite
 mkdir -p "$dir"
 ln -sf "$APPDIR"/bin/* "$dir"
 cd "$dir"
